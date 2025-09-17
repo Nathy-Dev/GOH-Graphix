@@ -265,6 +265,28 @@ h6 {
   }
 }
 
+/* Narrow-screen focal tweaks: ensure the hero background keeps the focal point visible on small devices */
+@media (max-width: 480px) {
+  .hero {
+    /* shift the background focal point upward/left to keep subject visible */
+    background-position: 50% 20%;
+    /* allow slightly larger background so it doesn't crop crucial parts */
+    background-size: cover;
+    padding-top: 70px;
+  }
+
+  /* tighten spacing for very small screens */
+  .hero-content {
+    padding: 0.75rem 0.5rem;
+  }
+
+  #hero-img {
+    width: 92%;
+    max-width: 360px;
+    margin-bottom: 0.75rem;
+  }
+}
+
 /* Back to Top */
 .back-to-top {
   position: fixed;
