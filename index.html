@@ -1,146 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>GOH Graphix - Graphics Designer & Visual Branding Expert</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
-  <script src="https://kit.fontawesome.com/3bdd3c44c8.js"
-  crossorigin="anonymous"></script>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GOH Graphix - Graphics Designer & Visual Branding Expert</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/3bdd3c44c8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container navbar-container">
+        <img src="images/logo.svg" alt="site logo" class="logo" />
 
-  <!-- Navigation -->
-  <nav class="navbar">
-  <div class="container navbar-container">
-    <img src="images/logo.svg" alt="site logo" class="logo">
+        <!-- Desktop Menu -->
+        <ul class="nav-links" id="desktop-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <!-- <li><a href="#blog">Blog</a></li> -->
+        </ul>
 
-    <!-- Desktop Menu -->
-    <ul class="nav-links" id="desktop-menu">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#testimonials">Testimonials</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <!-- <li><a href="#blog">Blog</a></li> -->
-    </ul>
-
-    <!-- Mobile Toggle Button -->
-    <div class="mobile-toggle">
-      <button id="mobile-menu-toggle"><i class="ri-menu-line"></i></button>
-    </div>
-  </div>
-
-  <!-- Mobile Dropdown Menu -->
-  <ul class="mobile-menu" id="mobile-menu">
-    <li><a href="#home">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#portfolio">Portfolio</a></li>
-    <li><a href="#services">Services</a></li>
-    <li><a href="#testimonials">Testimonials</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <!-- <li><a href="#blog">Blog</a></li> -->
-  </ul>
-</nav>
-
-
-  <!-- Hero Section -->
-  <section id="home" class="hero">
-  <div class="container hero-container">
-      <div class="hero-content">
-        <h1>Transforming Ideas Into Visual Excellence</h1>
-        <h2>Graphics Designer & Visual Branding Expert</h2>
-        <p>I craft distinctive visual identities that elevate brands and capture attention in today's competitive digital landscape.</p>
-        <div class="hero-buttons">
-          <a href="#portfolio" class="btn primary">View Portfolio</a>
-          <a href="#contact" class="btn outline">Hire Me</a>
+        <!-- Mobile Toggle Button -->
+        <div class="mobile-toggle">
+          <button id="mobile-menu-toggle"><i class="ri-menu-line"></i></button>
         </div>
       </div>
-      <img src="images/hero-img.png" alt="" id="hero-img">
-    </div>
-  </section>
-  
-  <section id="about" class="about-section">
-  <div class="container">
-    <div class="section-header">
-      <h2>About Us</h2>
-      <div class="underline"></div>
-    </div>
-    <div class="about-content">
-      <div class="about-text">
-        <h3>My Design Journey</h3>
-        <p>With over 8 years of experience in graphic design and visual branding, I've helped businesses of all sizes establish memorable visual identities.</p>
-        <p>My journey began as a self-taught designer. After earning my degree in Visual Communications, I worked with several agencies before launching GOH Graphix in 2020.</p>
-        <p>Exceptional design is more than aesthetics—it's about solving problems and creating meaningful connections.</p>
-      </div>
-      <div class="about-boxes">
-        <div class="about-box">
-          <div class="icon"><i class="ri-lightbulb-line"></i></div>
-          <h4>Creative Excellence</h4>
-          <p>Innovative solutions that stand out in crowded markets</p>
-        </div>
-        <div class="about-box">
-          <div class="icon"><i class="ri-time-line"></i></div>
-          <h4>Rapid Delivery</h4>
-          <p>Quick turnaround without compromising quality</p>
-        </div>
-        <div class="about-box">
-          <div class="icon"><i class="ri-focus-3-line"></i></div>
-          <h4>Brand Clarity</h4>
-          <p>Designs that communicate your brand's core message</p>
-        </div>
-        <div class="about-box">
-          <div class="icon"><i class="ri-customer-service-2-line"></i></div>
-          <h4>Client-Focused</h4>
-          <p>Collaborative approach with clear communication</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
-  <!-- Portfolio -->
-  <section id="portfolio" class="portfolio-section">
-  <div class="container">
-    <div class="section-header">
-      <h2>My Portfolio</h2>
-      <div class="underline"></div>
-      <p class="subtitle">Explore my latest projects. Each design reflects a creative solution to a unique challenge.</p>
-    </div>
+      <!-- Mobile Dropdown Menu -->
+      <ul class="mobile-menu" id="mobile-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <!-- <li><a href="#blog">Blog</a></li> -->
+      </ul>
+    </nav>
 
-    <!-- Filter Buttons -->
-    <div class="portfolio-filters">
-      <button class="filter-btn active" data-filter="all">All</button>
-      <button class="filter-btn" data-filter="logo">Logo Design</button>
-      <button class="filter-btn" data-filter="flyers">Flyer & Posters</button>
-      <button class="filter-btn" data-filter="branding">Branding</button>
-<!--       <button class="filter-btn" data-filter="social">Social Media</button>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <h1>Transforming Ideas Into Visual Excellence</h1>
+          <h2>Graphics Designer & Visual Branding Expert</h2>
+          <p>
+            I craft distinctive visual identities that elevate brands and
+            capture attention in today's competitive digital landscape.
+          </p>
+          <div class="hero-buttons">
+            <a href="#portfolio" class="btn primary">View Portfolio</a>
+            <a href="#contact" class="btn outline">Hire Me</a>
+          </div>
+        </div>
+        <img
+          src="images/hero-img.png"
+          alt="Collection of branding mockups and illustrations"
+          id="hero-img"
+          loading="lazy"
+          width="800"
+          height="600"
+        />
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>About Us</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>My Design Journey</h3>
+            <p>
+              With over 8 years of experience in graphic design and visual
+              branding, I've helped businesses of all sizes establish memorable
+              visual identities.
+            </p>
+            <p>
+              My journey began as a self-taught designer. After earning my
+              degree in Visual Communications, I worked with several agencies
+              before launching GOH Graphix in 2020.
+            </p>
+            <p>
+              Exceptional design is more than aesthetics—it's about solving
+              problems and creating meaningful connections.
+            </p>
+          </div>
+          <div class="about-boxes">
+            <div class="about-box">
+              <div class="icon"><i class="ri-lightbulb-line"></i></div>
+              <h4>Creative Excellence</h4>
+              <p>Innovative solutions that stand out in crowded markets</p>
+            </div>
+            <div class="about-box">
+              <div class="icon"><i class="ri-time-line"></i></div>
+              <h4>Rapid Delivery</h4>
+              <p>Quick turnaround without compromising quality</p>
+            </div>
+            <div class="about-box">
+              <div class="icon"><i class="ri-focus-3-line"></i></div>
+              <h4>Brand Clarity</h4>
+              <p>Designs that communicate your brand's core message</p>
+            </div>
+            <div class="about-box">
+              <div class="icon"><i class="ri-customer-service-2-line"></i></div>
+              <h4>Client-Focused</h4>
+              <p>Collaborative approach with clear communication</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>My Portfolio</h2>
+          <div class="underline"></div>
+          <p class="subtitle">
+            Explore my latest projects. Each design reflects a creative solution
+            to a unique challenge.
+          </p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="portfolio-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="logo">Logo Design</button>
+          <button class="filter-btn" data-filter="flyers">
+            Flyer & Posters
+          </button>
+          <button class="filter-btn" data-filter="branding">Branding</button>
+          <!--       <button class="filter-btn" data-filter="social">Social Media</button>
 <button class="filter-btn" data-filter="ui">UI/UX</button> -->
-    </div>
+        </div>
 
-    <!-- Portfolio Grid -->
-    <div class="portfolio-grid">
-      <div class="portfolio-item" data-category="logo">
-        <img src="images/Iddy.png" alt="Logo Design 1">
-        <div class="overlay">
-          <h4>Brew & Bean Café</h4>
-          <p>Minimalist logo for a coffee shop.</p>
-        </div>
-      </div>
-      <div class="portfolio-item" data-category="flyers">
-        <img src="images/surprise-call.jpg" alt="Brand Identity">
-        <div class="overlay">
-          <h4>Elevate Fitness</h4>
-          <p>Full brand identity for a fitness studio.</p>
-        </div>
-      </div>
-<!--       <div class="portfolio-item" data-category="social">
+        <!-- Portfolio Grid -->
+        <div class="portfolio-grid">
+          <div class="portfolio-item" data-category="logo">
+            <img src="images/Iddy.png" alt="Logo Design 1" />
+            <div class="overlay">
+              <h4>Brew & Bean Café</h4>
+              <p>Minimalist logo for a coffee shop.</p>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="flyers">
+            <img src="images/surprise-call.jpg" alt="Brand Identity" />
+            <div class="overlay">
+              <h4>Elevate Fitness</h4>
+              <p>Full brand identity for a fitness studio.</p>
+            </div>
+          </div>
+          <!--       <div class="portfolio-item" data-category="social">
   <img src="your-social1.jpg" alt="Social Media Kit">
   <div class="overlay">
     <h4>Vogue Collective</h4>
@@ -154,238 +185,296 @@ rel="stylesheet">
     <p>Mobile food delivery UI design.</p>
   </div>
 </div> -->
-      <!-- Add more items as needed -->
-    </div>
-  </div>
-</section>
-
-<!-- My Services -->
-  <section id="services" class="services-section">
-  <div class="container">
-    <div class="section-header">
-      <h2>My Services</h2>
-      <div class="underline"></div>
-      <br>
-      <p class="subtitle">I offer a comprehensive range of design services to help your brand stand out in today's competitive market.</p>
-    </div>
-
-    <div class="services-grid">
-      <div class="service-card">
-        <div class="icon"><i class="ri-pen-nib-line"></i></div>
-        <h3>Logo Design</h3>
-        <p>Custom logo creation that captures your brand’s essence and makes a lasting impression.</p>
-        <div class="card-footer">
-          <span>Starting at ₦50k</span>
-          <a href="#contact">Learn More</a>
+          <!-- Add more items as needed -->
         </div>
       </div>
+    </section>
 
-      <div class="service-card">
-        <div class="icon"><i class="ri-layout-grid-line"></i></div>
-        <h3>Social Media Kit</h3>
-        <p>Cohesive templates for Instagram, Facebook, and more to maintain brand consistency.</p>
-        <div class="card-footer">
-          <span>Starting at ₦30k</span>
-          <a href="#contact">Learn More</a>
+    <!-- My Services -->
+    <section id="services" class="services-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>My Services</h2>
+          <div class="underline"></div>
+          <br />
+          <p class="subtitle">
+            I offer a comprehensive range of design services to help your brand
+            stand out in today's competitive market.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="icon"><i class="ri-pen-nib-line"></i></div>
+            <h3>Logo Design</h3>
+            <p>
+              Custom logo creation that captures your brand’s essence and makes
+              a lasting impression.
+            </p>
+            <div class="card-footer">
+              <span>Starting at ₦50k</span>
+              <a href="#contact">Learn More</a>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="icon"><i class="ri-layout-grid-line"></i></div>
+            <h3>Social Media Kit</h3>
+            <p>
+              Cohesive templates for Instagram, Facebook, and more to maintain
+              brand consistency.
+            </p>
+            <div class="card-footer">
+              <span>Starting at ₦30k</span>
+              <a href="#contact">Learn More</a>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="icon"><i class="ri-article-line"></i></div>
+            <h3>Business Cards</h3>
+            <p>
+              Professional card designs that reflect your identity and leave a
+              memorable impact.
+            </p>
+            <div class="card-footer">
+              <span>Starting at ₦20k</span>
+              <a href="#contact">Learn More</a>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="icon"><i class="ri-file-paper-2-line"></i></div>
+            <h3>Flyers & Posters</h3>
+            <p>
+              Marketing materials designed to draw attention and communicate
+              your message clearly.
+            </p>
+            <div class="card-footer">
+              <span>Starting at ₦30k</span>
+              <a href="#contact">Learn More</a>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="icon"><i class="ri-palette-line"></i></div>
+            <h3>Brand Identity</h3>
+            <p>
+              Full branding packages with color palettes, logos, typography, and
+              brand guides.
+            </p>
+            <div class="card-footer">
+              <span>Starting at ₦70k</span>
+              <a href="#contact">Learn More</a>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="icon"><i class="ri-layout-masonry-line"></i></div>
+            <h3>UI/UX Design</h3>
+            <p>
+              User-friendly interface designs for websites and apps that improve
+              experience.
+            </p>
+            <div class="card-footer">
+              <span>Starting at ₦150k</span>
+              <a href="#contact">Learn More</a>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="service-card">
-        <div class="icon"><i class="ri-article-line"></i></div>
-        <h3>Business Cards</h3>
-        <p>Professional card designs that reflect your identity and leave a memorable impact.</p>
-        <div class="card-footer">
-          <span>Starting at ₦20k</span>
-          <a href="#contact">Learn More</a>
-        </div>
-      </div>
-
-      <div class="service-card">
-        <div class="icon"><i class="ri-file-paper-2-line"></i></div>
-        <h3>Flyers & Posters</h3>
-        <p>Marketing materials designed to draw attention and communicate your message clearly.</p>
-        <div class="card-footer">
-          <span>Starting at ₦30k</span>
-          <a href="#contact">Learn More</a>
-        </div>
-      </div>
-
-      <div class="service-card">
-        <div class="icon"><i class="ri-palette-line"></i></div>
-        <h3>Brand Identity</h3>
-        <p>Full branding packages with color palettes, logos, typography, and brand guides.</p>
-        <div class="card-footer">
-          <span>Starting at ₦70k</span>
-          <a href="#contact">Learn More</a>
-        </div>
-      </div>
-
-      <div class="service-card">
-        <div class="icon"><i class="ri-layout-masonry-line"></i></div>
-        <h3>UI/UX Design</h3>
-        <p>User-friendly interface designs for websites and apps that improve experience.</p>
-        <div class="card-footer">
-          <span>Starting at ₦150k</span>
-          <a href="#contact">Learn More</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
     <section id="testimonials" class="testimonials-section">
-  <div class="container">
-    <div class="section-header">
-      <h2>Client Testimonials</h2>
-      <div class="underline"></div>
-      <br>
-      <p class="subtitle">Don't just take my word for it. Here’s what my clients have to say.</p>
-    </div>
-
-    <div class="carousel-container">
-      <div class="carousel" id="testimonial-carousel">
-        <!-- Testimonial 1 -->
-        <div class="testimonial">
-          <div class="client-info">
-            <i class="fa-solid fa-user"></i>
-            <div>
-              <h4>Rebecca Thompson</h4>
-              <small>Founder, Bloom Boutique</small>
-            </div>
-          </div>
-          <div class="rating">★★★★★</div>
-          <p>"Working with GOH Graphix transformed our brand identity. Engagement increased by 40% since the new visual strategy."</p>
-          <small>Project: Complete Brand Redesign</small>
+      <div class="container">
+        <div class="section-header">
+          <h2>Client Testimonials</h2>
+          <div class="underline"></div>
+          <br />
+          <p class="subtitle">
+            Don't just take my word for it. Here’s what my clients have to say.
+          </p>
         </div>
 
-        <!-- Testimonial 2 -->
-        <div class="testimonial">
-          <div class="client-info">
-            <i class="fa-solid fa-user"></i>
-            <div>
-              <h4>Michael Chen</h4>
-              <small>CEO, Nexus Technologies</small>
+        <div class="carousel-container">
+          <div class="carousel" id="testimonial-carousel">
+            <!-- Testimonial 1 -->
+            <div class="testimonial">
+              <div class="client-info">
+                <i class="fa-solid fa-user"></i>
+                <div>
+                  <h4>Rebecca Thompson</h4>
+                  <small>Founder, Bloom Boutique</small>
+                </div>
+              </div>
+              <div class="rating">★★★★★</div>
+              <p>
+                "Working with GOH Graphix transformed our brand identity.
+                Engagement increased by 40% since the new visual strategy."
+              </p>
+              <small>Project: Complete Brand Redesign</small>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="testimonial">
+              <div class="client-info">
+                <i class="fa-solid fa-user"></i>
+                <div>
+                  <h4>Michael Chen</h4>
+                  <small>CEO, Nexus Technologies</small>
+                </div>
+              </div>
+              <div class="rating">★★★★★</div>
+              <p>
+                "The UI/UX design exceeded all expectations. Our user retention
+                has improved significantly."
+              </p>
+              <small>Project: Mobile App UI/UX Design</small>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="testimonial">
+              <div class="client-info">
+                <i class="fa-solid fa-user"></i>
+                <div>
+                  <h4>James Rodriguez</h4>
+                  <small>Owner, Harvest Table</small>
+                </div>
+              </div>
+              <div class="rating">★★★★☆</div>
+              <p>
+                "The menu designs and marketing materials helped us connect with
+                customers more effectively."
+              </p>
+              <small>Project: Restaurant Branding</small>
             </div>
           </div>
-          <div class="rating">★★★★★</div>
-          <p>"The UI/UX design exceeded all expectations. Our user retention has improved significantly."</p>
-          <small>Project: Mobile App UI/UX Design</small>
+
+          <!-- Navigation Arrows -->
+          <button class="carousel-btn prev" id="prevTestimonial">
+            &#10094;
+          </button>
+          <button class="carousel-btn next" id="nextTestimonial">
+            &#10095;
+          </button>
         </div>
 
-        <!-- Testimonial 3 -->
-        <div class="testimonial">
-          <div class="client-info">
-            <i class="fa-solid fa-user"></i>
-            <div>
-              <h4>James Rodriguez</h4>
-              <small>Owner, Harvest Table</small>
-            </div>
-          </div>
-          <div class="rating">★★★★☆</div>
-          <p>"The menu designs and marketing materials helped us connect with customers more effectively."</p>
-          <small>Project: Restaurant Branding</small>
+        <!-- Dots -->
+        <div class="carousel-dots">
+          <span class="dot active" data-index="0"></span>
+          <span class="dot" data-index="1"></span>
+          <span class="dot" data-index="2"></span>
         </div>
       </div>
+    </section>
 
-      <!-- Navigation Arrows -->
-      <button class="carousel-btn prev" id="prevTestimonial">&#10094;</button>
-      <button class="carousel-btn next" id="nextTestimonial">&#10095;</button>
-    </div>
-
-    <!-- Dots -->
-    <div class="carousel-dots">
-      <span class="dot active" data-index="0"></span>
-      <span class="dot" data-index="1"></span>
-      <span class="dot" data-index="2"></span>
-    </div>
-  </div>
-</section>
-
-
-  <!-- Contact Section -->
-  <section id="contact" class="contact-section">
-  <div class="container">
-    <div class="section-header">
-      <h2>Get In Touch</h2>
-      <div class="underline"></div>
-      <br>
-      <p class="subtitle">Ready to start your project? Let’s bring your ideas to life.</p>
-    </div>
-
-    <div class="contact-grid">
-      <!-- Contact Form -->
-      <form id="contact-form" class="contact-form">
-        <div class="form-group">
-          <label for="name">Your Name</label>
-          <input type="text" id="name" name="name" placeholder="Enter your name" required />
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Get In Touch</h2>
+          <div class="underline"></div>
+          <br />
+          <p class="subtitle">
+            Ready to start your project? Let’s bring your ideas to life.
+          </p>
         </div>
-        <div class="form-group">
-          <label for="email">Email Address</label>
-          <input type="email" id="email" name="email" placeholder="Enter your email" required />
-        </div>
-        <div class="form-group">
-          <label for="service">Service Interested In</label>
-          <select id="service" name="service">
-            <option value="">Select a service</option>
-            <option value="logo-design">Logo Design</option>
-            <option value="social-media">Social Media Kit</option>
-            <option value="business-cards">Business Cards</option>
-            <option value="flyers">Flyers & Posters</option>
-            <option value="brand">Brand Identity</option>
-            <option value="ui-ux">UI/UX Design</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="message">Your Message</label>
-          <textarea id="message" name="message" rows="5" placeholder="Tell me about your project" required></textarea>
-        </div>
-        <button type="submit" class="btn primary">Send Message</button>
-      </form>
 
-      <!-- Contact Info -->
-      <div class="contact-info">
-        <h3>Contact Information</h3>
-        <div class="info-block">
-          <i class="ri-mail-line"></i>
-          <div>
-            <strong>Email</strong>
-            <p>graphixgoh@gmail.com</p>
+        <div class="contact-grid">
+          <!-- Contact Form -->
+          <form id="contact-form" class="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="service">Service Interested In</label>
+              <select id="service" name="service">
+                <option value="">Select a service</option>
+                <option value="logo-design">Logo Design</option>
+                <option value="social-media">Social Media Kit</option>
+                <option value="business-cards">Business Cards</option>
+                <option value="flyers">Flyers & Posters</option>
+                <option value="brand">Brand Identity</option>
+                <option value="ui-ux">UI/UX Design</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Tell me about your project"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn primary">Send Message</button>
+          </form>
+
+          <!-- Contact Info -->
+          <div class="contact-info">
+            <h3>Contact Information</h3>
+            <div class="info-block">
+              <i class="ri-mail-line"></i>
+              <div>
+                <strong>Email</strong>
+                <p>graphixgoh@gmail.com</p>
+              </div>
+            </div>
+            <div class="info-block">
+              <i class="ri-phone-line"></i>
+              <div>
+                <strong>Phone</strong>
+                <p>+234 913 029 2811</p>
+              </div>
+            </div>
+            <div class="info-block">
+              <i class="ri-time-line"></i>
+              <div>
+                <strong>Working Hours</strong>
+                <p>Mon - Fri: 9AM – 6PM</p>
+              </div>
+            </div>
+
+            <div class="cta">
+              <h4>Book a Consultation</h4>
+              <p>
+                Schedule a 30-minute discovery call to discuss your project
+                needs.
+              </p>
+              <a href="#" class="btn secondary">Book a Call</a>
+            </div>
+
+            <div class="social-links">
+              <a href="#"><i class="ri-instagram-line"></i></a>
+              <a href="#"><i class="ri-behance-line"></i></a>
+              <a href="#"><i class="ri-dribbble-line"></i></a>
+              <a href="#"><i class="ri-linkedin-line"></i></a>
+            </div>
           </div>
-        </div>
-        <div class="info-block">
-          <i class="ri-phone-line"></i>
-          <div>
-            <strong>Phone</strong>
-            <p>+234 913 029 2811</p>
-          </div>
-        </div>
-        <div class="info-block">
-          <i class="ri-time-line"></i>
-          <div>
-            <strong>Working Hours</strong>
-            <p>Mon - Fri: 9AM – 6PM</p>
-          </div>
-        </div>
-
-        <div class="cta">
-          <h4>Book a Consultation</h4>
-          <p>Schedule a 30-minute discovery call to discuss your project needs.</p>
-          <a href="#" class="btn secondary">Book a Call</a>
-        </div>
-
-        <div class="social-links">
-          <a href="#"><i class="ri-instagram-line"></i></a>
-          <a href="#"><i class="ri-behance-line"></i></a>
-          <a href="#"><i class="ri-dribbble-line"></i></a>
-          <a href="#"><i class="ri-linkedin-line"></i></a>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-  <!-- Blog Section -->
-  <!-- <section id="blog" class="blog-section">
+    <!-- Blog Section -->
+    <!-- <section id="blog" class="blog-section">
   <div class="container">
     <div class="section-header">
       <h2>Latest from the Blog</h2>
@@ -395,8 +484,8 @@ rel="stylesheet">
     </div>
 
     <div class="blog-grid"> -->
-      <!-- Blog Post 1 -->
-      <!-- <article class="blog-card">
+    <!-- Blog Post 1 -->
+    <!-- <article class="blog-card">
         <img src="blog1.jpg" alt="Blog image 1" />
         <div class="blog-content">
           <h4>5 Logo Trends Dominating 2025</h4>
@@ -405,8 +494,8 @@ rel="stylesheet">
         </div>
       </article> -->
 
-      <!-- Blog Post 2 -->
-      <!-- <article class="blog-card">
+    <!-- Blog Post 2 -->
+    <!-- <article class="blog-card">
         <img src="blog2.jpg" alt="Blog image 2" />
         <div class="blog-content">
           <h4>Why Visual Identity Is Crucial for New Brands</h4>
@@ -415,8 +504,8 @@ rel="stylesheet">
         </div>
       </article> -->
 
-      <!-- Blog Post 3 -->
-      <!-- <article class="blog-card">
+    <!-- Blog Post 3 -->
+    <!-- <article class="blog-card">
         <img src="blog3.jpg" alt="Blog image 3" />
         <div class="blog-content">
           <h4>Design Mistakes to Avoid in Social Media Kits</h4>
@@ -428,46 +517,55 @@ rel="stylesheet">
   </div>
 </section> -->
 
-  <footer class="site-footer">
-  <div class="container footer-container">
-    <div class="footer-brand">
-      <img src="images/logo.svg" alt="site logo" class="logo">
-      <br>
-      <p>Designing timeless visuals that elevate your brand and make you unforgettable.</p>
-    </div>
+    <footer class="site-footer">
+      <div class="container footer-container">
+        <div class="footer-brand">
+          <img src="images/logo.svg" alt="site logo" class="logo" />
+          <br />
+          <p>
+            Designing timeless visuals that elevate your brand and make you
+            unforgettable.
+          </p>
+        </div>
 
-    <div class="footer-links">
-      <h4>Quick Links</h4>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
 
-    <div class="footer-contact">
-      <h4>Contact</h4>
-      <p>Email: graphixgoh@gmail.com</p>
-      <p>Phone: +234 913 029 2811</p>
-      <div class="footer-socials">
-        <a href="https://www.facebook.com/profile.php?id=61568707337714"><i class="ri-facebook-line"></i></a>
-        <a href="#"><i class="ri-instagram-line"></i></a>
-        <a href="#"><i class="ri-behance-line"></i></a>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p>Email: graphixgoh@gmail.com</p>
+          <p>Phone: +234 913 029 2811</p>
+          <div class="footer-socials">
+            <a href="https://www.facebook.com/profile.php?id=61568707337714"
+              ><i class="ri-facebook-line"></i
+            ></a>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-behance-line"></i></a>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <br>
-  <div class="footer-bottom">
-    <p>© <span id="currentYear"></span> GOH Graphix. All Rights Reserved.</p>
-  </div>
-</footer>
+      <br />
+      <div class="footer-bottom">
+        <p>
+          © <span id="currentYear"></span> GOH Graphix. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
 
-  <!-- Back to Top Button -->
-  <button id="back-to-top" class="back-to-top"><i class="ri-arrow-up-line"></i></button>
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+      <i class="ri-arrow-up-line"></i>
+    </button>
 
-  <!-- Scripts -->
-  <script src="script.js"></script>
-</body>
+    <!-- Scripts -->
+    <script src="script.js"></script>
+  </body>
 </html>
