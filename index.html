@@ -3,10 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0057B7" />
     <title>GOH Graphix - Graphics Designer & Visual Branding Expert</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
@@ -22,9 +28,11 @@
   </head>
   <body>
     <!-- Navigation -->
-    <nav class="navbar">
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
       <div class="container navbar-container">
-        <img src="images/logo.svg" alt="site logo" class="logo" />
+        <a href="#home" class="brand" aria-label="GOH Graphix home"
+          ><img src="images/logo.svg" alt="GOH Graphix logo" class="logo"
+        /></a>
 
         <!-- Desktop Menu -->
         <ul class="nav-links" id="desktop-menu">
@@ -38,13 +46,19 @@
         </ul>
 
         <!-- Mobile Toggle Button -->
-        <div class="mobile-toggle">
-          <button id="mobile-menu-toggle"><i class="ri-menu-line"></i></button>
+        <div class="mobile-toggle" aria-hidden="false">
+          <button
+            id="mobile-menu-toggle"
+            aria-controls="mobile-menu"
+            aria-expanded="false"
+          >
+            <i class="ri-menu-line"></i>
+          </button>
         </div>
       </div>
 
       <!-- Mobile Dropdown Menu -->
-      <ul class="mobile-menu" id="mobile-menu">
+      <ul class="mobile-menu" id="mobile-menu" role="menu" aria-hidden="true">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
@@ -56,7 +70,7 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero">
+    <section id="home" class="hero" aria-label="Hero">
       <div class="container hero-container">
         <div class="hero-content">
           <h1>Transforming Ideas Into Visual Excellence</h1>
@@ -70,14 +84,16 @@
             <a href="#contact" class="btn outline">Hire Me</a>
           </div>
         </div>
-        <img
-          src="images/hero-img.png"
-          alt="Collection of branding mockups and illustrations"
-          id="hero-img"
-          loading="lazy"
-          width="800"
-          height="600"
-        />
+        <figure aria-hidden="false">
+          <img
+            src="images/hero-img.png"
+            alt="Collection of branding mockups and illustrations"
+            id="hero-img"
+            loading="lazy"
+            width="800"
+            height="600"
+          />
+        </figure>
       </div>
     </section>
 
